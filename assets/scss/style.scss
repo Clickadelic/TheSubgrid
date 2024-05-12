@@ -37,8 +37,18 @@ img {
 	border: 1px solid #ccc;
 	border-radius: 6px;
 	padding: 2rem;
-	text-align: center;
+	// text-align: center;
 	display: grid;
 	grid-template-rows: subgrid;
 	grid-row: span 3;
+
+	h2 {
+		color: var(--primary);
+		margin-bottom: 2rem;
+	}
+
+	button {
+		padding: 1rem;
+		color: var(--secondary);
+	}
 }
