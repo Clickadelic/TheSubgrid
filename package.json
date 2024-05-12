@@ -1,0 +1,18 @@
+{
+	"name": "thesubgrid",
+	"version": "0.0.1",
+	"description": "A CSS-subgrid example",
+	"main": "index.js",
+	"scripts": {
+		"sass": "sass ./assets/scss/style.scss ./assets/css/style.css --watch --no-source-map"
+	},
+	"keywords": [
+		"CSS",
+		"Subgrid"
+	],
+	"author": "Tobias Hopp",
+	"license": "MIT",
+	"devDependencies": {
+		"sass": "^1.77.1"
+	}
+}
